@@ -1,2 +1,31 @@
 body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: blueviolet;
+  color:white
+}
+
+.htop {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  
 }
