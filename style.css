@@ -1,13 +1,14 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: white;
+  gap: 10px;
 }
 
 header {
   background-color: hsl(280, 100%, 20%);
   color:white;
-  border: 2px solid whitesmoke;
+  border: 2px solid black;
   text-shadow: -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black;
  
 }
@@ -68,9 +69,60 @@ nav {
 a {
   text-decoration: none;
   color: inherit;
-  
 }
 
-button {
+.mid {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.stuff {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 10px;
+}
+
+.block {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.pok {
+  width: 160px;
+  font-weight: bold;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 24px;
+  text-shadow: -1.0px 0 black, 0 1.0px black, 1.0px 0 black, 0 -1.0px black;
+}
+
+.bulb {
+  color: white;
+  background-color: green;
+}
+
+.char {
+  color: white;
+  background-color: red;
+}
+
+.squir {
+  color: white;
+  background-color: blue;
+}
+
+.signup {
   margin: 5px 0;
 }
